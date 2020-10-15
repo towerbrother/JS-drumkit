@@ -1,0 +1,24 @@
+{
+  "name": "drum-kit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy":"gh-pages -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/towerbrother/JS-drumkit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/towerbrother/JS-drumkit/issues"
+  },
+  "homepage": "https://towerbrother.github.io/JS-drumkit",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
