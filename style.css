@@ -10,18 +10,21 @@ html {
 }
 
 .container {
+  background: #d9d5cc;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 }
 
 .title {
   font-size: 50px;
-  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .signature {
+  margin-top: 50px;
   font-size: 20px;
 }
 
@@ -33,8 +36,6 @@ html {
 .keys {
   display: flex;
   flex-wrap: wrap;
-  flex: 1;
-  min-height: 50vh;
   align-items: center;
   justify-content: center;
 }
